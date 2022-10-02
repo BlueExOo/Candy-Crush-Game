@@ -10,9 +10,10 @@ const Board = () => {
 
   return (
     <div
-      className="flex flex-wrap rounded-lg"
+      className={`flex flex-wrap rounded-lg`}
       style={{
-        width: `${6.25 * boardSize}rem`,
+        width: `${115 * boardSize}px`,
+        marginInlineStart: `${7 * boardSize}px`,
       }}
     >
       {board.map((candy: string, index: number) => (

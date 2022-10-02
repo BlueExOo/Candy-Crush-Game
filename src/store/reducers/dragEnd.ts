@@ -96,3 +96,4 @@ export const dragEndReducer = (
   }
   state.board = newBoard;
 };
+
